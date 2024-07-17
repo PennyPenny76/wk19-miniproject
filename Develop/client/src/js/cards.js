@@ -49,8 +49,8 @@ const fetchCards = async () => {
         <h1>${data.name}</h1>
       </div>
       <div class="card-body">
-        <p>Home Phone: ${data.home_phone}</p>
-        <p>Cell Phone: ${data.cell_phone}</p>
+        <p>Home Phone: ${data.home}</p>
+        <p>Cell Phone: ${data.cell}</p>
         <p>Email: ${data.email}</p>
       </div>
       <div class="flex-row justify-flex-end p-1">
